@@ -45,18 +45,21 @@
         </div>
     </div>
     
-    <div class="book-list">
-        <h1 class="content-header">Your Books</h1>
-        <div class="card-container">
-            <div class="card">
-                <p class="title">Cool Project</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt nihil fuga dolores magnam maxime atque necessitatibus tenetur quos est libero aut ratione consequatur, in consectetur saepe nam ex architecto nisi.</p>
-                <div class="icons">
-                    <i class="material-icons">read_more</i>
-                    <i class="material-icons">bookmark_add</i>
-                    <i class="material-icons">comment_bank</i>
-                </div>
-            </div>
+    <div class="row p-2" id="card-container">
+        <div class="col-sm-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title" id="title">Harry Potter</h5>
+              <p class="card-text" id="author">Author: JK</p>
+              <p class="card-text" id="pages">Pages: 2343</p>
+              <input class="form-check-input" type="checkbox" id="isReadCard">
+              <label class="form-check-label" for="isReadCard">
+                  Read?
+              </label>
+          </div>
+          <button class="btn btn-danger" id="deleteButton">
+            <i class="material-symbols-outlined text-light">delete</i>
+            </button>
         </div>
     </div>
     
